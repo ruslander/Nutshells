@@ -11,10 +11,12 @@ $ftp_pass = "web"
 $artifacts = "c:\artifacts"
 $backup = "c:\backups\current"
 
-task Upload -depends Release {
-    UploadToFtp $artifacts $ftp_uri $ftp_user $ftp_pass
-}
+//upload
+UploadToFtp $artifacts $ftp_uri $ftp_user $ftp_pass
 
-task Backup {
-    DownLoadFromFtp $backup $ftp_uri $ftp_user $ftp_pass
-}
+//download
+DownLoadFromFtp $backup $ftp_uri $ftp_user $ftp_pass
+
+
+How I use it to backup/deploy my site
+https://github.com/ruslander/LightCI
