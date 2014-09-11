@@ -17,6 +17,3 @@ UploadToFtp $artifacts $ftp_uri $ftp_user $ftp_pass
 //download
 DownLoadFromFtp $backup $ftp_uri $ftp_user $ftp_pass
 
-
-How I use it to backup/deploy my site
-https://github.com/ruslander/LightCI
