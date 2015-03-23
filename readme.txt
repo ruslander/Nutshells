@@ -17,3 +17,7 @@ UploadToFtp $artifacts $ftp_uri $ftp_user $ftp_pass
 //download
 DownLoadFromFtp $backup $ftp_uri $ftp_user $ftp_pass
 
+
+
+License
+http://apache.org/licenses/LICENSE-2.0
